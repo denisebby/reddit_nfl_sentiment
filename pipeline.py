@@ -82,7 +82,7 @@ def get_sentiment_2() -> None:
     input_comments_df["upload_date"] = input_comments_df["upload_date"].astype("datetime64[ns]")
 
     # classify sentiment
-    input_comments_df["sentiment"] = input_comments_df.apply(lambda row: classifier(row.comment), axis = 1)
+    input_comments_df["sentiment"] = input_comments_df.apply(lambda row: classifier(row.comment[:min(len(row.comment),512)]), axis = 1)
     input_comments_df["label"] = input_comments_df.apply(lambda row: row.sentiment[0]["label"], axis = 1)
     input_comments_df["score"] = input_comments_df.apply(lambda row: row.sentiment[0]["score"], axis = 1)
     logging.info("Classify sentiment")
