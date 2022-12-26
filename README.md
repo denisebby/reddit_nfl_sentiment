@@ -3,7 +3,7 @@ How does reddit sentiment look like currently for the different nfl team subredd
 
 https://nfl-pulse-5w5kpqv4ea-ue.a.run.app/
 
-Kaggle dataset I made for team logo images since I could not find a good pre-existing dataset: https://www.kaggle.com/datasets/debby99/nfl-team-logos-as-of-2023
+Additionally, here is the Kaggle dataset I made for team logo images since I could not find a good pre-existing dataset: https://www.kaggle.com/datasets/debby99/nfl-team-logos-as-of-2023
 
 I used: 
 - Cloud Scheduler & Cloud Functions
