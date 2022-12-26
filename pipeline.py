@@ -53,7 +53,7 @@ def get_sentiment_2() -> None:
     logger.setLevel("INFO")
 
     logging.info("Test to see if logging works")
-    print("hi 2")
+
 
     from transformers import pipeline
     logging.info("Loaded hf pipeline")
@@ -65,7 +65,7 @@ def get_sentiment_2() -> None:
     # set up pysqldf
     # pysqldf = lambda q: sqldf(q, globals())
     logging.info("Set up pysqldf")
-    print("hi 3")
+
 
     # Allocate a pipeline for sentiment-analysis
     classifier = pipeline('sentiment-analysis')

@@ -11,9 +11,15 @@ I used:
     - run sentiment classification pipeline
 - Vertex AI Pipelines
     - run Kubeflow pipeline to conduct sentiment analysis and aggregate scores
+- Hugging Face 
+    - use default sentiment classification model (DistilBERT base uncased finetuned SST-2)
 - GCS
-    - stores data and pipeline metadata
+    - store data and pipeline metadata
 - DASH
     - frontend
 - Cloud Run
     - deployment
+
+TODO:
+- improve responsiveness of frontend
+- improve model used (classification of reddit comments not always correct)
