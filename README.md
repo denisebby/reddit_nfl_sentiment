@@ -23,3 +23,4 @@ I used:
 TODO:
 - improve responsiveness of frontend
 - improve model used (classification of reddit comments not always correct)
+- include some measure of recent change in sentiment ranking
