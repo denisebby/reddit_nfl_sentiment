@@ -24,3 +24,5 @@ TODO:
 - improve responsiveness of frontend
 - improve model used (classification of reddit comments not always correct)
 - include some measure of recent change in sentiment ranking
+
+![Screen Shot 2023-01-02 at 3 04 18 PM](https://user-images.githubusercontent.com/48736213/212568848-08530d12-714c-430b-897c-4dd5a7249d38.png)
