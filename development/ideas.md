@@ -37,8 +37,8 @@ how do i know when i specify base image like us-docker.pkg.dev/vertex-ai/trainin
 
 # deploy 
 
-docker buildx build --platform linux/amd64 -t gcr.io/united-impact-363519/nfl_reddit_sentiment:v1.0.0 .
+docker buildx build --platform linux/amd64 -t gcr.io/united-impact-363519/nfl_reddit_sentiment:v1.1.0 .
 
-docker push gcr.io/united-impact-363519/nfl_reddit_sentiment:v1.0.0 
+docker push gcr.io/united-impact-363519/nfl_reddit_sentiment:v1.1.0 
 
-gcloud run deploy --image gcr.io/united-impact-363519/nfl_reddit_sentiment:v1.0.0 --platform managed  --project=united-impact-363519 --allow-unauthenticated
+gcloud run deploy --image gcr.io/united-impact-363519/nfl_reddit_sentiment:v1.1.0 --platform managed  --project=united-impact-363519 --allow-unauthenticated

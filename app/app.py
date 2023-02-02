@@ -21,10 +21,10 @@ def get_date():
     day = d.day
 
     if day in [1,21, 31]:
-        suffix == "st"
+        suffix = "st"
     elif day in [2,22]:
         suffix = "nd"
-    elif day == [3, 23]:
+    elif day in [3, 23]:
         suffix = "rd"
     else:
         suffix = "th"
